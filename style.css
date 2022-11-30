@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbarleft img{
+    width:16em;
+}
+.navbarright{
+    width: 100%;
+    /* display: flex; */
+    
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.navbarright ul{
+    justify-content: flex-end;
+    display: flex;
+}
+.navbarright ul li{
+    list-style: none;
+    padding: 2% 2% 2% 3%;
+}
+.navbarright ul li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.navbelow{
+    background: url("/back2.jpg");
+    height:55vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbelowmarquee{
+    border-top: 5px solid rgb(41, 187, 246);
+    border-bottom: 5px solid rgb(41, 187, 246);
+}
+.container{
+    display: flex;
+}
+.left{
+    width: 50%;
+    text-align: center;
+}
+.left h1{
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 8% 4% 2% 4%;
+    padding: 0% 2% 1% 0%;
+}
+#mybtnsign{
+    padding: 4% 12% 4% 12%;
+    border: 0;
+    margin: 0;
+    border-radius: 5px;
+}
+#mybtnsign:hover{
+    color: aliceblue;
+    background-color: aqua;
+}
+.left input{
+    padding: 2% 8% 2% 6%;
+    margin: 2%;
+    outline: 0;
+}
+.middle{
+    margin: 1% 4% 2% 4%;
+}
+.middle h1{
+    font-size: 2rem;
+}
+.middle h6{
+    padding: 0% 2% 1% 0%;
+    font-size: 1rem;
+}
+.right{
+    width: 50%;
+}
+.righttop ul li,.rightbottom ul li{
+    padding: 1%;
+    margin: 5%;
+}
+.righttop h3,.rightbottom h3{
+    padding: 1%;
+    text-align: center;
+    margin: 5%;
+}
+.middlebelow{
+    display: flex;
+    margin: 2% 0% 2% 0%;
+}
+.middlebelow div{
+    padding: 5%;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(116, 116, 116, 0.916);
+    color: rgba(0, 0, 0, 0.878);
+}
+.footer h5{
+    font-size: 1.5rem;
+    border-bottom: 2px solid black;
+    padding: 4% 2% 2% 2%;
+
+}
+.footer ul li{
+    list-style: none;
+    padding: 4% 2% 2% 2%;
+
+}
+.footer ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.foot{
+    padding: .4%;
+    background-color: black;
+    color: aliceblue;
+    text-align: end;
+}
